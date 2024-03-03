@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/img_logo"
+        android:src="@drawable/ic_omnilogo"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:id="@+id/img_omnimobile"
+        android:src="@drawable/ic_omnimobile"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:id="@+id/img_omniwms"
+        android:src="@drawable/ic_omniwms"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:id="@+id/img_omnidev"
+        android:src="@drawable/ic_omnidev"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:id="@+id/img_omnipa"
+        android:src="@drawable/ic_omnipa"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:id="@+id/img_omnisms"
+        android:src="@drawable/ic_omnisms"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:id="@+id/img_omnibi"
+        android:src="@drawable/ic_omnibi"/>
+
+</LinearLayout>
